@@ -1,0 +1,49 @@
+[ {
+  "id" : "admin-user-id",
+  "username" : "admin",
+  "password" : "123",
+  "name" : "系统管理员",
+  "email" : "admin@zoo.com",
+  "phone" : "13800000000",
+  "avatar" : "🐨",
+  "roleIds" : [ "admin-role-id" ],
+  "enabled" : true,
+  "createdAt" : "2026-01-01T00:00:00",
+  "updatedAt" : "2026-05-10T18:38:04.189"
+}, {
+  "id" : "keeper-user-id",
+  "username" : "keeper",
+  "password" : "123",
+  "name" : "张三",
+  "email" : "keeper@zoo.com",
+  "phone" : "13900000000",
+  "avatar" : "🦁",
+  "roleIds" : [ "keeper-role-id" ],
+  "enabled" : true,
+  "createdAt" : "2026-01-01T00:00:00",
+  "updatedAt" : "2026-05-10T18:34:58.63"
+}, {
+  "id" : "3beaa5ee-51b9-4e26-90f1-b98cc6240ea0",
+  "username" : "guider",
+  "password" : "123",
+  "name" : "李思",
+  "email" : "111@qq.com",
+  "phone" : "",
+  "avatar" : "🐼",
+  "roleIds" : [ "d89b929e-40e7-4a8c-b286-4b025872b80c" ],
+  "enabled" : true,
+  "createdAt" : "2026-05-11T09:57:54.271",
+  "updatedAt" : "2026-05-11T09:58:27.807"
+}, {
+  "id" : "c9619a5d-f958-41c2-a6d4-ea5980695890",
+  "username" : "test",
+  "password" : "123",
+  "name" : "test",
+  "email" : "",
+  "phone" : "",
+  "avatar" : "🐼",
+  "roleIds" : [ "a0ba9cb5-d0db-4519-872a-24a6fc14868e" ],
+  "enabled" : true,
+  "createdAt" : "2026-05-11T10:08:20.091",
+  "updatedAt" : "2026-05-11T10:08:20.091"
+} ]

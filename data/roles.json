@@ -1,0 +1,37 @@
+[ {
+  "id" : "admin-role-id",
+  "name" : "管理员",
+  "code" : "ADMIN",
+  "description" : "系统管理员，拥有所有权限",
+  "permissionIds" : [ "perm-user-list", "perm-user-create", "perm-user-edit", "perm-user-delete", "perm-role-list", "perm-role-create", "perm-role-edit", "perm-role-delete", "perm-perm-list", "perm-perm-create", "perm-perm-edit", "perm-perm-delete" ],
+  "enabled" : true,
+  "createdAt" : "2026-01-01T00:00:00",
+  "updatedAt" : "2026-01-01T00:00:00"
+}, {
+  "id" : "keeper-role-id",
+  "name" : "饲养员",
+  "code" : "KEEPER",
+  "description" : "饲养员，只能查看自己的信息",
+  "permissionIds" : [ "perm-user-list" ],
+  "enabled" : true,
+  "createdAt" : "2026-01-01T00:00:00",
+  "updatedAt" : "2026-01-01T00:00:00"
+}, {
+  "id" : "d89b929e-40e7-4a8c-b286-4b025872b80c",
+  "name" : "导游",
+  "code" : "TOUR_GUIDER",
+  "description" : "导游",
+  "permissionIds" : [ "perm-user-list", "perm-user-create", "perm-user-delete", "perm-user-edit" ],
+  "enabled" : true,
+  "createdAt" : "2026-05-11T09:55:48.69",
+  "updatedAt" : "2026-05-11T10:02:55.395"
+}, {
+  "id" : "a0ba9cb5-d0db-4519-872a-24a6fc14868e",
+  "name" : "test",
+  "code" : "test",
+  "description" : "test",
+  "permissionIds" : [ "perm-user-list" ],
+  "enabled" : true,
+  "createdAt" : "2026-05-11T10:07:59.415",
+  "updatedAt" : "2026-05-11T10:08:08.571"
+} ]
